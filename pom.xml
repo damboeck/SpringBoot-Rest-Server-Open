@@ -8,11 +8,11 @@
         <version>3.0.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>at.ac.htlstp.demo</groupId>
-    <artifactId>SpringBootRest-Server-Open</artifactId>
+    <groupId>at.ac.htlstp.demo.rest</groupId>
+    <artifactId>SpringBoot-Rest-Server-Open</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringBootRest-Server-Open</name>
-    <description>SpringBootRest-Server-Open</description>
+    <name>SpringBoot-Rest-Server-Open</name>
+    <description>SpringBoot-Rest-Server-Open</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -39,6 +39,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>at.ac.htlstp.demo.rest</groupId>
+            <artifactId>SpringBoot-Rest-Interface</artifactId>
+            <version>0.1</version>
         </dependency>
     </dependencies>
 
