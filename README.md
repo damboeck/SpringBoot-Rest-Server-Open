@@ -6,6 +6,6 @@
 * Packages:
   * Lombok
   * Spring Web
-  * Thymleaf
+  * Thymeleaf
   * Jersey
 
